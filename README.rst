@@ -6,14 +6,7 @@
 pas.plugins.skipauthentication
 ==============================================================================
 
-This plugin allow authentication for any user without or with a master
-password (for developement only)
-
-Features
---------
-
-- Allow authentication for any user
-- Define and change a master password
+This plugin allow authentication for any user with a master password (for developement only)
 
 
 Installation
