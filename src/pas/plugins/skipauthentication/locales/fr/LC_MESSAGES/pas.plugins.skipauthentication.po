@@ -1,6 +1,3 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -15,15 +12,15 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: pas.plugins.skipauthentication\n"
+"Domain: DOMAIN\n"
 
 #: ../interfaces.py:29
 msgid "Master password"
-msgstr ""
+msgstr "Mot de passe global"
 
 #: ../interfaces.py:30
 msgid "Password used for the authentication"
-msgstr ""
+msgstr "Mot de passe utilisé pour l'authentification"
 
 #: ../profiles/default/controlpanel.xml
 msgid "Skip Authentication"
