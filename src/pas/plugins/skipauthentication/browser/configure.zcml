@@ -4,4 +4,11 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="pas.plugins.skipauthentication">
 
+  <browser:page
+    name="skipauthentication-controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".controlpanel.SkipAuthenticationSettingsView"
+    permission="cmf.ManagePortal"
+    />
+
 </configure>
