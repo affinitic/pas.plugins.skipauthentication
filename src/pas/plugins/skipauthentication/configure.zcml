@@ -6,7 +6,7 @@
 
   <i18n:registerTranslations directory="locales" />
 
-  <includeDependencies package="." />
+  <include package="z3c.jbot" />
 
   <include package=".browser" />
 

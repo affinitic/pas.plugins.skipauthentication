@@ -5,7 +5,8 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add Plone 6 compatibility
+  [laulaz]
 
 
 1.0a2 (2023-12-19)
