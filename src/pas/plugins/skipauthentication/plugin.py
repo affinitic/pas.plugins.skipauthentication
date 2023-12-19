@@ -15,7 +15,7 @@ from Products.PluggableAuthService.plugins.BasePlugin import BasePlugin
 from plone import api
 from plone.registry.interfaces import IRegistry
 from zope.component import queryUtility
-from zope.interface import implements
+from zope.interface import implementer
 
 import os
 
@@ -46,11 +46,11 @@ manage_addSkipAuthPluginForm = PageTemplateFile(
 )
 
 
+@implementer(
+    pas_interfaces.IAuthenticationPlugin,
+    ISkipAuthenticationPlugin,
+)
 class SkipAuthenticationPlugin(BasePlugin):
-    implements(
-        pas_interfaces.IAuthenticationPlugin,
-        ISkipAuthenticationPlugin,
-    )
 
     security = ClassSecurityInfo()
     meta_type = 'Skip Authentication Plugin'
