@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='pas.plugins.skipauthentication',
-    version='1.0a2.dev0',
+    version='1.0a2',
     description=("PAS Plugin to allow authentication for any user for "
                  "development purpose"),
     long_description=long_description,
