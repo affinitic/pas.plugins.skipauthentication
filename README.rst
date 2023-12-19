@@ -28,8 +28,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/pas.plugins.skipauthentication/issues
-- Source Code: https://github.com/collective/pas.plugins.skipauthentication
+- Issue Tracker: https://github.com/affinitic/pas.plugins.skipauthentication/issues
+- Source Code: https://github.com/affinitic/pas.plugins.skipauthentication
 
 
 Support
