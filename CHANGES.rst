@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a3 (unreleased)
+1.0a3 (2023-12-19)
 ------------------
 
 - Add Plone 6 compatibility
